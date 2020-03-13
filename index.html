@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng cửu chương</title>
+</head>
+<body>
+<table border="1" style="width: 1000px">
+    <tr id="l1"></tr>
+    <tr id="l2"></tr>
+    <tr id="l3"></tr>
+    <tr id="l4"></tr>
+    <tr id="l5"></tr>
+    <tr id="l6"></tr>
+    <tr id="l7"></tr>
+    <tr id="l8"></tr>
+    <tr id="l9"></tr>
+</table>
+<script>
+    let i;
+    let j;
+    for (i=1;1<10;i++){
+        for (j=2;j<10;j++){
+            document.getElementById("l" + i).innerHTML += "<td>" + j + "x" + i + "=" +i*j+"</td>";
+        }
+    }
+</script>
+</body>
+</html>
